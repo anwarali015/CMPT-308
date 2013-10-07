@@ -1,4 +1,4 @@
-﻿-- Name: Mohammed
+-- Name: Mohammed
 -- CMPT - 308
 -- SQL Homework Assignment 3
 
@@ -7,7 +7,7 @@
 --(Yes, this is the same question as on homework #2).
 select city
 from agents
-where aid in (select aid 
+where aid in (select aid    
 		from orders
 		where cid = 'c002');
 
